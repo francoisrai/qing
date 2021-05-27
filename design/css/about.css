@@ -1,0 +1,315 @@
+/* TEAM */
+
+.team_list {
+	letter-spacing: -0.21em;
+	padding-bottom: 20px;
+}
+
+	.team_list ul {
+		margin-left: -30px;
+		margin-right: -30px;
+	}
+
+	.team_list .team_item {
+		display: inline-block;
+		width: 25%;
+		letter-spacing: normal;
+		padding: 0 30px 60px;
+	}
+
+	.team_list .team_item img {
+		width: 100%;
+	}
+
+	.team_list .team_item span {
+		font-size: 30px;
+		line-height: 36px;
+		display: block;
+		margin-top: 10px;
+		font-family: 'didot', serif;
+		font-weight: bold;
+	}
+
+	.team_list .team_item .member_name {
+		margin-top: 20px;
+	}
+
+/* AWARD */
+
+.award_item {
+	display: flex;
+	align-items: center;
+	border-bottom: solid 1px #E2E2E2;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.award_item:last-child {
+	border-bottom: none;
+}
+
+	.award_picture {
+		width: 150px;
+		position: relative;
+	}
+
+	.award_picture img {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+.award_info {
+	margin-left: 20px;
+}
+
+	.award_info span {
+		display: block;
+		font-size: 34px;
+	}
+
+	.award_info span.award_name {
+		font-size: 24px;
+	}
+
+/* CONTACT */
+
+.section.contact .content_wrapper {
+	border-bottom: none;
+}
+
+.office {
+	margin-bottom: 60px;
+}
+
+.office_city,
+.wechat span {
+	font-size: 30px;
+	font-family: 'didot', serif;
+	font-weight: bold;
+	margin-bottom: 20px;
+	display: block;
+}
+
+	.office_info div {
+		margin-top: 10px;
+	    display: flex;
+	    align-items: center;
+	}
+
+	.office_info .icon {
+		position: relative;
+		padding-left: 30px;
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+	}
+
+	.office_info .icon:before {
+		content:'';
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		top: 50%;
+		left: 0;
+		margin-top: -10px;
+		background: url(../images/icon_phone.svg) no-repeat center center;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+	}
+
+	.office_info .email .icon:before {
+		height: 14px;
+		background: url(../images/icon_mail.svg) no-repeat center center;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+	}
+
+	.office_info .location .icon:before {
+		width: 16px;
+		height: 23px;
+		margin-top: -12px;
+		margin-left: 2px;
+		background: url(../images/icon_location.svg) no-repeat center center;
+		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+	}
+
+.qr_code {
+	width: 150px;
+}
+
+	.qr_code img {
+		width: 100%;
+	}
+
+/* ========================================== */
+/* TEAM MEMBER */
+/* ========================================== */
+
+.intro-member .content_wrapper {
+	padding-top: 100px;
+	border-bottom: none;
+}
+
+.intro-member h1 {
+	font-size: 30px;
+}
+
+	.intro-member h1 span {
+		display: block;
+	}
+
+.grid_pictures .two-pic,
+.grid_pictures .full-pic {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+	.grid_pictures .image_wrapper {
+		width: 50%;
+	}
+
+	.grid_pictures .two-pic .image_wrapper:first-child {
+		margin-right: 5px;
+	}
+
+	.grid_pictures .two-pic .image_wrapper:last-child {
+		margin-left: 5px;
+	}
+
+	.grid_pictures .full-pic .image_wrapper {
+		width: 100%;
+	}
+
+	.grid_pictures img {
+		width: 100%;
+}
+
+/* ========================================== */
+/* RESPONSIVE */
+/* ========================================== */
+
+@media screen and (max-width: 1024px) {
+	.team_list ul {
+	    margin-left: -20px;
+	    margin-right: -20px;
+	}
+
+	.team_list .team_item {
+	    width: 33.33%;
+	    padding: 0 20px 60px;
+	}
+
+	.team_list .team_item span,
+	.award_info span,
+	.office_city, .wechat span {
+	    font-size: 24px;
+	    line-height: 28px;
+	}
+
+	.award_picture {
+	    width: 100px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.team_list .team_item {
+	    width: 50%;
+	    padding: 0 20px 60px;
+	}
+
+	.team_list .team_item span,
+	.award_info span,
+	.office_city, .wechat span {
+	    font-size: 24px;
+	    line-height: 28px;
+	}
+
+	.award_picture {
+	    width: 100px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.section.banner {
+	    padding: 0 20px;
+	}
+
+	.section.banner img {
+	    margin-top: 80px;
+	}
+
+	.intro-member h1 {
+		font-size: 19px;
+	}
+
+	/* TEAM */
+
+	.team_list ul {
+	    margin-left: -10px;
+	    margin-right: -10px;
+	}
+
+	.team_list .team_item {
+	    padding: 0 10px 30px;
+	}
+
+	.team_list .team_item span, .award_info span, .office_city, .wechat span {
+	    font-size: 15px;
+	    line-height: 20px;
+	}
+
+	.team_list .team_item .member_name {
+	    margin-top: 10px;
+	}
+
+	.team_list .team_item span {
+	    margin-top: 5px;
+	}
+
+	/* AWARD */
+
+	.award_picture {
+	    width: 60px;
+	}
+
+	.award_info span.project_award {
+		font-size: 19px;
+	}
+
+	.award_info span.award_name {
+		font-size: 14px;
+	}
+
+	/* TEAM MEMBER */
+
+	.intro-member .content_wrapper {
+	    padding-top: 20px;
+	}
+
+	.grid_pictures .two-pic, 
+	.grid_pictures .full-pic {
+	    display: block;
+	    margin-bottom: 0px;
+	}
+
+	.grid_pictures .image_wrapper {
+	    width: 100%;
+	    margin: 0 0 10px 0 !important;
+	}
+}
+
+
+
+
+
+
+
+

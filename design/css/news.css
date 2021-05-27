@@ -1,0 +1,76 @@
+/* NEWS */
+
+.content_wrapper {
+	padding: 80px 50px;
+	border-bottom: none;
+}
+
+	.slide_item,
+	.slider {
+		height: auto;
+	}
+
+	.slick-slide {
+		height: auto;
+	}
+
+	.slick-slide img {
+	    position: relative;
+	    left: initial;
+	    top: initial;
+	    transform: none;
+	    -moz-transform: none;
+	    -webkit-transform: none;
+	    -sand-transform: none;
+	    -ms-transform: none;
+	    width: 100%;
+	    height: auto;
+	}
+
+.expand-icon {
+	display: none;
+}
+
+.expand_menu {
+	opacity: .2;
+}
+
+/* ========================================== */
+/* RESPONSIVE */
+/* ========================================== */
+
+@media screen and (max-width: 480px) {
+
+	.news_item {
+		padding: 0 20px;
+	}
+
+	.content_wrapper {
+        padding: 20px 0px 20px;
+		margin-bottom: 40px;
+	    position: relative;
+	}
+
+	.col-right {
+		height: 150px;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.open .col-right {
+		height: initial;
+	}
+
+	.expand-icon {
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+
