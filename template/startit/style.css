@@ -1,0 +1,16 @@
+/*
+Theme Name: Start.it
+Theme URI: https://startit.agency
+Author: Team Start.it
+Author URI: https://startit.agency
+Description: Made with love by Start.it Agency
+Version: 1.0
+*/
+
+body {
+    background: #FFFFFF;
+    font-family: "Source Sans Pro";
+    color: #4b5157;
+    margin: 0 auto;
+}
+  
