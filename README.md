@@ -19,4 +19,7 @@ Qing theme project
 - Affichage d’une page 404 : 404.php, ou index.php (par défaut).
 
 # Help 
+- https://underscores.me/
+- https://codex.wordpress.org/Theme_Development
+- https://yoast.com/wordpress-theme-anatomy/
 - https://www.blogdumoderateur.com/creer-theme-wordpress/
